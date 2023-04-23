@@ -75,15 +75,21 @@ CREATE TABLE IF NOT EXISTS `doctor` (
   `doc_exp` varchar(250) NOT NULL,
   `doc_specialization` varchar(250) NOT NULL,
   PRIMARY KEY (`doc_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=15 DEFAULT CHARSET=latin1;
+);
 
 --
 -- Dumping data for table `doctor`
 --
 
 INSERT INTO `doctor` (`doc_id`, `hsp_id`, `doc_name`, `doc_mobile`, `doc_email`, `doc_address`, `doc_gender`, `doc_qualification`, `doc_exp`, `doc_specialization`) VALUES
-(13, 'Pooja Hospital', 'Mr Anmol', '1234567890', 'anmol@gmail.com', 'Goregaon', 'Male', 'MBBS', '1 year', 'Surgeon'),
-(14, 'Suvidha Hospital & Polyclinic', 'Miss Sushmita', '9123456789', 'sushmita@gmail.com', 'Goregaon', 'Male', 'MBBS', '1 year', 'Surgeon');
+(14, 'Apollo Hospital', 'Dr.Shubham Garg', '9073564210', 'Shubham08@gmail.com', '', 'M', 'Noida', 'Mbbs|Ms-General Surgery', 'Chest surgeon,Surgical oncologist,Thoracic Oncologist'),
+(13, 'Fortis Hospital', 'Dr.Vishwanath Dudani', '7865478901', 'Vishawanath22@gmail.com', 'Noida', 'M', 'Mbbs', '30 years', 'Plastic Surgeon'),
+(15, 'Jaypee Hospital', 'Dr.Raj Ganjoo', '8723065791', 'Raj9@gmail.com', 'Noida', 'M', 'Mbbs|M.D.(Psychiatry)', '49 years', 'Psychiatrist'),
+(16, 'Metro Multispeciality Hospital', 'Dr.Rajesh Sharma', '4912073741', 'Rajesh9@gmail.com', 'Noida', 'M', 'MBBS|Mch-Cardio Thoracic and Vascular Surgery', '32 years', 'Pediatric Cardiac Surgeon,Pediactric Cardiologist ,Cardiothoracic Surgeon'),
+(17, 'Yatharth Superspeciality Hospital', 'Dr.Avani Sarvaiya Tiwari', '4329878767', 'Avani01@gmail.com', 'Noida', 'F', 'MBBS|DPM(Psychiatry)|DNB', '19 years', 'Psychiatrist'),
+(18, 'Kailash Hospital', 'Dr.Ashima Ranjan', '9550314648', 'Ashima@gmail.com', 'Noida', 'F', 'DPM(Psychiatry)|MBBS|DNB-Psychiatry', '13 years', 'Psychiatrist,Neuropsychiatrist'),
+(19, 'Cloudnine Hospital', 'Dr.Sanjeev Kumar Shrivastava', '8522129510', 'Sanjeev@gmail.com', 'Noida', 'M', 'MBBS|MS-General Surgery', '34 years', 'Gastroenterologist,General Surgeon,Laparoscopic Surgeon,Hepatologist'),
+(20, 'Felix Hospital', 'Dr.Vinita Gupta', '3544208084', 'vinitag@gmail.com', 'Noida', 'F', 'MBBS|MD-Obstetrics & Gynaecology', '24 years', 'Gynecologist,Infertility Specialist,Obstetrician');
 
 -- --------------------------------------------------------
 
@@ -185,7 +191,7 @@ CREATE TABLE IF NOT EXISTS `user` (
 --
 
 INSERT INTO `user` (`user_id`, `user_name`, `user_email`, `user_gender`, `user_password`, `user_contact`) VALUES
-(101, 'Aryaman', 'Aryaman@gmail.com', 'male', '1234', '1234567890');
+(101, 'Aryaman', 'Aryaman@gmail.com', 'male', '1234', '1234567890');  
 
 COMMIT;
 
