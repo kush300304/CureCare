@@ -30,9 +30,13 @@ body{
 	font-size: 17px;
 }
 
+.navbar{
+    padding:1rem 2.5rem 1rem 2rem;
+}
+
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
     background-color: white;
-  color: #17a2b8 !important;
+  color: #19A7CE  !important;
   }
 
 .active {
@@ -63,7 +67,7 @@ body{
         }
 .footer 
 {
- background-color: #03a9f4!important; 
+ background-color: #19A7CE; 
 	padding:10px;
 	flex-shrink: 0;
 }
@@ -156,16 +160,18 @@ vertical-align: middle;
     padding-top: 20px;
     
 }
-.color-link{
-    color:black;
+.colorl:link{
+    background-color:black;
 }
 
-.color-link:hover{
-    color:#fff;
+.colorl:visited{
+    background-color:white;
 }
-.color-link:visited{
-    color:black;
+
+.colorl:hover{
+    background-color:white;
 }
+
 
 .login_border{
     border-style:solid;
