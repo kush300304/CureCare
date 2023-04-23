@@ -53,7 +53,7 @@
 	<div id="contact" class="col-md-12 pt-4 pb-4 bgsection">
 		<div class="col-md-8 mx-auto mt-4 text-center pt-4 pb-4">
 			<h1 class="text-white">Contact us</h1>
-			<p class="mt-4 text-white">We value your input and strive to provide the best possible customer service.We'd love to hear from you! To get in touch with our team.</p>
+			<p class="mt-4 text-white">We value your input and strive to provide the best possible customer service.We'd love to hear from you! To get in touch with our team.</p>
 			<a class="color-link" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-2xl socials"></i></a>
 			<a class="color-link" href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl socials"></i></a>
 			<a class="color-link" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook fa-2xl socials"></i></a>
@@ -114,4 +114,3 @@ $(document).on('submit', '#user_form', function(event){
 
 </body>
 </html>
-
