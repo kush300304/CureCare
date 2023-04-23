@@ -55,8 +55,8 @@
 			if(isset($_SESSION["type"]))
 			{
 			?>
-				<nav class="navbar navbar-expand-lg navbar-dark bg-info" style="background-color: #595652">
-				<a class="navbar-brand" href="#">A2Z Solution</a>
+				<nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top" style="background-color: #19A7CE">
+				<a class="navbar-brand" href="#">CureCare</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 				</button>
@@ -111,7 +111,7 @@
 			else
 			{
 			?>
-				<nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top" style="background-color: #595652">
+				<nav class="navbar navbar-expand-lg navbar-dark bg-info" style="background-color: #19A7CE">
 				<a class="navbar-brand" href="index.php">CureCare</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
